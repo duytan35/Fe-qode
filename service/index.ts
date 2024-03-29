@@ -19,7 +19,7 @@ export const createComment = async (postId: string, content: string) => {
   const res = await axiosClient.post("/comments", {
     postId,
     content,
-    username: "Anonymous",
+    username: "Duy Tan",
   });
 
   return res;
